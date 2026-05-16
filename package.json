@@ -1,0 +1,21 @@
+{
+  "name": "atlinx-theme",
+  "displayName": "atlinx-theme",
+  "description": "Pink color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Atlinx",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Atlinx-color-theme.json"
+      }
+    ]
+  }
+}
