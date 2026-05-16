@@ -1,8 +1,13 @@
 {
   "name": "atlinx-theme",
-  "displayName": "atlinx-theme",
-  "description": "Pink color theme",
-  "version": "0.0.1",
+  "displayName": "Atlinx Theme",
+  "description": "A dark/pink color theme.",
+  "icon": "images/icon.png",
+  "version": "0.0.3",
+  "publisher": "atlinx",
+  "repository": {
+    "url": "https://github.com/Atlinx/atlinx-theme-vscode"
+  },
   "engines": {
     "vscode": "^1.120.0"
   },
