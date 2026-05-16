@@ -168,17 +168,17 @@
 		"panelTitle.activeForeground": "#e7e7e7",
 		"panelTitle.inactiveForeground": "#e7e7e799",
 		"peekView.border": "#ff6798",
-		"peekViewEditor.background": "#431826",
+		"peekViewEditor.background": "#431826b7",
 		"peekViewEditor.matchHighlightBackground": "#b45775",
 		"peekViewEditor.matchHighlightBorder": "#ff6798",
-		"peekViewEditorGutter.background": "#431826",
-		"peekViewResult.background": "#252526",
+		"peekViewEditorGutter.background": "#431826b7",
+		"peekViewResult.background": "#262b38",
 		"peekViewResult.fileForeground": "#ffffff",
 		"peekViewResult.lineForeground": "#bbbbbb",
 		"peekViewResult.matchHighlightBackground": "#ba69344d",
 		"peekViewResult.selectionBackground": "#3399ff33",
 		"peekViewResult.selectionForeground": "#ffffff",
-		"peekViewTitle.background": "#1e1e1e",
+		"peekViewTitle.background": "#262b38",
 		"peekViewTitleDescription.foreground": "#ccccccb3",
 		"peekViewTitleLabel.foreground": "#ffffff",
 		"pickerGroup.border": "#00000000",
@@ -227,16 +227,16 @@
 		"terminal.ansiBrightGreen": "#a3e441",
 		"terminal.ansiBrightMagenta": "#d670d6",
 		"terminal.ansiBrightRed": "#ee4343",
-		"terminal.ansiBrightWhite": "#e5e5e5",
+		"terminal.ansiBrightWhite": "#e6e6e6",
 		"terminal.ansiBrightYellow": "#f7d669",
 		"terminal.ansiCyan": "#11a8cd",
 		"terminal.ansiGreen": "#3fbe18",
 		"terminal.ansiMagenta": "#bc3fbc",
 		"terminal.ansiRed": "#cd3131",
-		"terminal.ansiWhite": "#e5e5e5",
+		"terminal.ansiWhite": "#c8cad1",
 		"terminal.ansiYellow": "#f3a909",
 		"terminal.border": "#80808059",
-		"terminal.foreground": "#e6e6e6",
+		"terminal.foreground": "#c8cad1",
 		"terminal.inactiveSelectionBackground": "#3a3d41",
 		"terminal.selectionBackground": "#ffffff40",
 		"terminalCursor.background": "#ff6798",
@@ -289,18 +289,19 @@
 			}
 		},
 		{
-			"name": "String",
+			"name": "String + Decorator",
 			"scope": [
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"string",
+				"entity.name.function.decorator"
 			],
 			"settings": {
 				"foreground": "#f7d669",
 			}
 		},
 		{
-			"name": "Keyword + Link",
+			"name": "Keyword + Link + XML Tag",
 			"scope": [
 				"keyword",
 				"entity.name.function.operator",
@@ -338,7 +339,7 @@
 			}
 		},
 		{
-			"name": "Function Call",
+			"name": "Function Call + XML Attributes",
 			"scope": [
 				"meta.function-call",
 				"entity.name.function.call",
