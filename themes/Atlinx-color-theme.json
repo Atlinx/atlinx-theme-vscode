@@ -283,6 +283,7 @@
 				"markup.fenced_code",
 				"entity.name.scope-resolution",
 				"entity.name.type.namespace",
+				"markup.inline.raw"
 			],
 			"settings": {
 				"foreground": "#f3a909",
@@ -301,7 +302,7 @@
 			}
 		},
 		{
-			"name": "Keyword + Link + XML Tag",
+			"name": "Keyword + Link + XML Tag + Markdown links",
 			"scope": [
 				"keyword",
 				"entity.name.function.operator",
@@ -310,6 +311,7 @@
 				"variable.parameter.function.language.special.self",
 				"meta.link",
 				"entity.name.tag",
+				"meta.image.inline"
 			],
 			"settings": {
 				"foreground": "#ff6798",
