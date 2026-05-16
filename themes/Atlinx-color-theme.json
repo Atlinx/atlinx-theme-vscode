@@ -120,7 +120,7 @@
 		"list.activeSelectionIconForeground": "#ffffff",
 		"list.dropBackground": "#2b303f",
 		"list.focusBackground": "#ff6798",
-		"list.focusForeground": "#cccccc",
+		"list.focusForeground": "#202330",
 		"list.highlightForeground": "#e6e6e6",
 		"list.hoverBackground": "#3d444f",
 		"list.hoverForeground": "#cccccc",
@@ -311,7 +311,8 @@
 				"variable.parameter.function.language.special.self",
 				"meta.link",
 				"entity.name.tag",
-				"meta.image.inline"
+				"meta.image.inline",
+				"constant.language"
 			],
 			"settings": {
 				"foreground": "#ff6798",
@@ -334,7 +335,7 @@
 				"markup.heading",
 				"support.type",
 				"entity.name.type.class",
-				"variable.other.object"
+				"variable.other.object",
 			],
 			"settings": {
 				"foreground": "#46d0f3",
@@ -348,7 +349,8 @@
 				"entity.name.function.member",
 				"entity.name.variable.field",
 				"variable.other.object.property",
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"constant.language.boolean.yaml"
 			],
 			"settings": {
 				"foreground": "#a3e441",
