@@ -3,7 +3,7 @@
   "displayName": "Atlinx Theme",
   "description": "A dark/pink color theme.",
   "icon": "images/icon.png",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "publisher": "atlinx",
   "repository": {
     "url": "https://github.com/Atlinx/atlinx-theme-vscode"
